@@ -4,14 +4,11 @@ import GodHeader from "../components/GodHeader";
 import HeroBanner from "../components/HeroBanner";
 import ParagraphBlock from "../components/ParagraphBlock";
 import StorySection from "../components/StorySection";
-import { CardData, TiltCard } from "../components/TiltCard";
+import { TiltCard } from "../components/TiltCard";
 import { keyPrograms } from "../services/keyPrograms";
 import { otherPrograms } from "../services/otherPrograms";
 import FeaturedStory from "./FeaturedStory";
 
-interface CardData {
-  data: CardData;
-}
 const OurImpact = () => {
   return (
     <>

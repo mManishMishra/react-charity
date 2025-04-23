@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -16,7 +15,7 @@ const App = () => {
   useTheme();
   return (
     <>
-      <div className="bg-[var(--brand-bg)] text-[var(--brand-text)] min-h-screen transition-colors duration-500">
+      <div className="overflow-x-hidden bg-[var(--brand-bg)] text-[var(--brand-text)] min-h-screen transition-colors duration-500">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

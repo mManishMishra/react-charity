@@ -1,4 +1,3 @@
-import React from "react";
 import HeroBanner from "../components/HeroBanner";
 import OurMission from "../assets/about-top.5dffc8b813bb.webp";
 import ParagraphBlock from "../components/ParagraphBlock";

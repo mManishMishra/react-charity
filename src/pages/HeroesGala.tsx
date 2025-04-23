@@ -1,6 +1,5 @@
-// src/pages/HeroesGala.tsx
 import ContentPage from "../components/Content";
-import heroImg from "../assets/hero-3.webp"; // or use any CDN URL
+import heroImg from "../assets/hero-3.webp";
 
 const HeroesGala = () => {
   return (

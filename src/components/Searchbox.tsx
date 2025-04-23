@@ -16,7 +16,7 @@ const suggestions = [
 
 const SearchBox = ({ show, onClose }: SearchBoxProps) => {
   const searchRef = useRef<HTMLDivElement>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<number | null>(null);
 
   const [query, setQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -45,7 +45,8 @@ const SearchBox = ({ show, onClose }: SearchBoxProps) => {
 
   useEffect(() => {
     if (show) timeoutRef.current = setTimeout(onClose, 8000);
-    return () => timeoutRef.current && clearTimeout(timeoutRef.current);
+    // return () => timeoutRef.current && clearTimeout(timeoutRef.current);
+    return () => void (timeoutRef.current && clearTimeout(timeoutRef.current));
   }, [show]);
 
   useEffect(() => {

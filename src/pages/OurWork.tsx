@@ -1,7 +1,6 @@
-import React from "react";
 import HeroBanner from "../components/HeroBanner";
 import ParagraphBlock from "../components/ParagraphBlock";
-import { FeatureCards, TiltCard } from "../components/TiltCard";
+import { TiltCard } from "../components/TiltCard";
 import { playPrograms } from "../services/playPrograms";
 import CountryList from "../components/Countrylist";
 import GodHeader from "../components/GodHeader";
