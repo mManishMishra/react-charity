@@ -45,9 +45,9 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Connect</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: hello@crikscharity.org</li>
-            <li>Phone: +1 234 567 8901</li>
-            <li>Address: 123 Hope Street, Kindness City</li>
+            <li>Email: info@qualigiate.com</li>
+            <li>Phone: :011-46018994, 9415829212, 9654997875, 9540913200</li>
+            <li>Address: Address :5-A-2 Main Market New Delhi DL 110076</li>
           </ul>
         </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-10 text-center text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} Charity . All rights reserved.
+        &copy; {new Date().getFullYear()} Qualigiate . All rights reserved.
       </div>
     </footer>
   );
