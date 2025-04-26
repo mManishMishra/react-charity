@@ -4,7 +4,8 @@ import { Menu, X, Moon, Sun, Search } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTheme } from "../hooks/useTheme";
-import logo from "../assets/LOGO.jpeg";
+// import logo from "../assets/LOGO.jpeg";
+import logo from "../assets/logo-main.png";
 import SearchBox from "./Searchbox";
 
 const Navbar = () => {

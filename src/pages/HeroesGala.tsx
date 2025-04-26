@@ -1,5 +1,5 @@
 import ContentPage from "../components/Content";
-import heroImg from "../assets/hero-3.webp";
+import heroImg from "../assets/banner4.jpg";
 
 const HeroesGala = () => {
   return (

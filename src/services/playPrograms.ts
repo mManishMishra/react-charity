@@ -1,7 +1,7 @@
-import SocioEmo from "../assets/Socio-emotional_skills.original.height-400.webp";
+import SocioEmo from "../assets/school-298681_1920.jpg";
 import Cognitive from "../assets/Cognitive_skills.height-400.webp";
 import Physical from "../assets/Physical_skills.height-400.webp";
-import Academic from "../assets/Academic_skills.original.height-400.webp";
+import Academic from "../assets/children-876543_1920.jpg";
 export const playPrograms = [
   {
     title: "",

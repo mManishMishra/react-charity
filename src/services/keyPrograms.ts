@@ -1,7 +1,7 @@
-import ChildEdu from "../assets/Early_Childhoon_and_Education.width-160.webp";
-import PrimEdu from "../assets/RTP-Pillar-QualityEducation.width-160.webp";
-import ChildCare from "../assets/RTP-Pillar-HealthAndWellBeing.width-160.webp";
-import GenderEqu from "../assets/RTP-Pillar-GenderEquality.width-160.webp";
+import ChildEdu from "../assets/ai-generated-8979065_1920.jpg";
+import PrimEdu from "../assets/about-top.5dffc8b813bb.webp";
+import ChildCare from "../assets/husniati-salma-3gXsTtLFlfA-unsplash.jpg";
+import GenderEqu from "../assets/sippakorn-yamkasikorn-9XTxB38xKlo-unsplash.jpg";
 
 export const keyPrograms = [
   {

@@ -10,6 +10,7 @@ import HeroesGala from "./pages/HeroesGala";
 import OurImpact from "./pages/OurImpact";
 import OurWork from "./pages/OurWork";
 import StoriesPage from "./pages/Stories";
+import { ErrorPage } from "./pages/ErrorPage";
 
 const App = () => {
   useTheme();
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/our-work" element={<OurWork />} />
           <Route path="/stories" element={<StoriesPage />} />
           <Route path="/heroes-gala" element={<HeroesGala />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
         <ScrollToTopButton />

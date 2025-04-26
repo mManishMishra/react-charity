@@ -1,6 +1,6 @@
-import Img1 from "../assets/Noelline_-_Burundi_-_Hero_Image.width-500.webp";
-import Img2 from "../assets/bill-wegener-TQT0w8uF8Us-unsplash.jpg";
-import Img3 from "../assets/vaishnavi-pawar-exU18-IbCk8-unsplash.jpg";
+import Img1 from "../assets/children-876543_1920.jpg";
+import Img2 from "../assets/vaishnavi-pawar-exU18-IbCk8-unsplash.jpg";
+import Img3 from "../assets/pexels-swastikarora-12818151.jpg";
 const cards = [
   {
     title: "Help Children in the Middle East",

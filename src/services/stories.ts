@@ -1,4 +1,4 @@
-import ChildEdu from "../assets/Early_Childhoon_and_Education.width-160.webp";
+import ChildEdu from "../assets/school-298681_1920.jpg";
 export const stories = [
   {
     id: "creating-safer-spaces",

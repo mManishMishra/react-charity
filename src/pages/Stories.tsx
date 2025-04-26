@@ -4,7 +4,7 @@ import { StoryCard } from "../components/StoryCard";
 import { Pagination } from "../components/Pagination";
 import GodHeader from "../components/GodHeader";
 import HeroBanner from "../components/HeroBanner";
-import Hero from "../assets/Shamim_-_Header_Image.max-2000x2000.format-webp.webp";
+import Hero from "../assets/vaishnavi-pawar-exU18-IbCk8-unsplash.jpg";
 const StoriesPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const storiesPerPage = 6;

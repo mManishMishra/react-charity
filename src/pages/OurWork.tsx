@@ -4,8 +4,8 @@ import { TiltCard } from "../components/TiltCard";
 import { playPrograms } from "../services/playPrograms";
 import CountryList from "../components/Countrylist";
 import GodHeader from "../components/GodHeader";
-import WhyWePlay from "../assets/Why_Do_We_Play_-_Rwanda_-_Web_Hero.width-500.webp";
-import Noelie from "../assets/Noelline_-_Burundi_-_Hero_Image.width-500.webp";
+import WhyWePlay from "../assets/rajesh-rajput-l311xjAVewI-unsplash.jpg";
+import Noelie from "../assets/rashmi-bhatia-l2S599EOErE-unsplash.jpg";
 const moreAboutWork = [
   {
     title: "Why Do We Play?",

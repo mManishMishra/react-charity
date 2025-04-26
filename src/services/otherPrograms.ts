@@ -1,7 +1,7 @@
-import YoungChild from "../assets/Young_Children-stat4x.width-160.webp";
-import Literacy from "../assets/Improved_Literacy_X.width-160.webp";
-import ProtectGirl from "../assets/Girls_Protected_X.width-160.webp";
-import YouthTrauma from "../assets/Youth_Cope_Trauma-stat.width-160.webp";
+import YoungChild from "../assets/children-876543_1920.jpg";
+import Literacy from "../assets/sippakorn-yamkasikorn-9XTxB38xKlo-unsplash.jpg";
+import ProtectGirl from "../assets/aaron-santelices-xlqijmOFEuw-unsplash.jpg";
+import YouthTrauma from "../assets/atul-pandey-0f3bZHXZSz8-unsplash.jpg";
 export const otherPrograms = [
   {
     title: "YOUNG CHILDREN THRIVE",

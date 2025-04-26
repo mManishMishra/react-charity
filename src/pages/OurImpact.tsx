@@ -1,4 +1,4 @@
-import Impact from "../assets/Impact.jpg";
+import Impact from "../assets/sumant-kumar-XQY7u9fu7WU-unsplash.jpg";
 import ContentPage from "../components/Content";
 import GodHeader from "../components/GodHeader";
 import HeroBanner from "../components/HeroBanner";

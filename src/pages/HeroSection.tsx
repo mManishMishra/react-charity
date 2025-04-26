@@ -1,5 +1,5 @@
 import { ImpactStats } from "../components/ImpactStats";
-import Hero from "../assets/church-of-the-king-j9jZSqfH5YI-unsplash.jpg";
+import Hero from "../assets/pexels-yogendras31-3231358.jpg";
 import HeroBanner from "../components/HeroBanner";
 
 export const HeroSection = () => (

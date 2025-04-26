@@ -1,5 +1,5 @@
 import StorySection from "../components/StorySection";
-import Hero from "../assets/Peter_-_Tanzania_-_Image_1_-_Web_Hero.width-630.webp";
+import Hero from "../assets/pexels-ritesh-arya-1423700-3079978.jpg";
 import GodHeader from "../components/GodHeader";
 const FeaturedStory = () => {
   return (

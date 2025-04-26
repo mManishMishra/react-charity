@@ -2,23 +2,25 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import hero3 from "../assets/hero-3.webp";
+import banner1 from "../assets/banner1.jpg";
+import banner2 from "../assets/banner2.jpg";
+import banner3 from "../assets/banner4.jpg";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350",
+    image: banner1,
     heading: "Empowering the Next Generation",
     buttonText: "Learn More",
     route: "/about",
   },
   {
-    image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d",
+    image: banner2,
     heading: "Be the Change You Want to See",
     buttonText: "Get Involved",
     route: "/get-involved",
   },
   {
-    image: hero3,
+    image: banner3,
     heading: "Every Donation Counts",
     buttonText: "Donate Now",
     route: "/donate",
