@@ -19,7 +19,7 @@ export const ErrorPage = () => {
           transition={{ duration: 1 }}
           className="text-8xl font-extrabold"
         >
-          Something awesome is on the way!
+          Something on way!
         </motion.h1>
 
         <motion.p

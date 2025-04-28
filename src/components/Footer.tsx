@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="bg-[var(--brand-bg)] text-[var(--brand-text)] py-12 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Column 1 */}
         <div>
           <h3 className="text-xl font-semibold mb-4">About Us</h3>
@@ -15,9 +15,9 @@ const Footer = () => {
         </div>
 
         {/* Column 2 */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Explore</h3>
-          <ul className="space-y-2 text-sm">
+        {/* <div> */}
+        {/* <h3 className="text-xl font-semibold mb-4">Explore</h3> */}
+        {/* <ul className="space-y-2 text-sm">
             <li>
               <Link to="/who-we-are" className="hover:text-orange-400">
                 Who We Are
@@ -38,16 +38,16 @@ const Footer = () => {
                 Get Involved
               </Link>
             </li>
-          </ul>
-        </div>
+          </ul> */}
+        {/* </div> */}
 
         {/* Column 3 */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Connect</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: info@qualigiate.com</li>
-            <li>Phone: :011-46018994, 9415829212, 9654997875, 9540913200</li>
-            <li>Address: Address :5-A-2 Main Market New Delhi DL 110076</li>
+            <li>Email 📧 info@qualigiate.com</li>
+            <li>Phone☎️ :011-46018994, 9415829212, 9654997875, 9540913200</li>
+            <li>Address 🌐 : Address :5-A-2 Main Market New Delhi DL 110076</li>
           </ul>
         </div>
 

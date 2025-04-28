@@ -1,5 +1,5 @@
 import Slider from "../components/Slider";
-import FeaturedStory from "./FeaturedStory";
+// import FeaturedStory from "./FeaturedStory";
 import { HeroSection } from "./HeroSection";
 import { OurImpact } from "../components/OurImpact";
 import SignUp from "./Signup";
@@ -17,7 +17,7 @@ const Home = () => {
 
       <SignUp />
       <HeroSection />
-      <FeaturedStory />
+      {/* <FeaturedStory /> */}
     </>
   );
 };

@@ -9,12 +9,12 @@ const FeaturedStory = () => {
 
       <StorySection
         image={Hero}
-        title="How Peter Went Back to Learning"
-        description=" When schools shut down, Peter feared his dream of becoming a teacher
+        title="How Asha Went Back to Learning"
+        description=" When schools shut down, Asha feared his dream of becoming a teacher
         was over. But with the help of community-led programs and your
-        support, Peter found his way back to learning — and hope."
-        buttonText="Read Peter's Full Story →"
-        link="/stories/peter-story"
+        support, Asha found his way back to learning — and hope."
+        buttonText="Read Asha's Full Story →"
+        link="/stories/asha-story"
       />
     </div>
   );
