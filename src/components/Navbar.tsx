@@ -58,7 +58,7 @@ const Navbar = () => {
             alt="Main Logo"
             className="h-12 w-auto rounded-[10px] object-contain dark:invert"
           /> */}
-          <span className="text-2l text-center font-bold  text-orange-600 dark:text-orange-400">
+          <span className="text-2l m-2 text-center font-bold  text-orange-600 dark:text-orange-400">
             QUALIGIATE
             <p>Global Education Tutors Foundation EST-2022</p>
           </span>
