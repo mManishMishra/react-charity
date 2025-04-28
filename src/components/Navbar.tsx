@@ -51,7 +51,7 @@ const Navbar = () => {
           <img
             src={logoSide}
             alt="Side Logo"
-            className="h-12 w-auto rounded-[10px] object-contain dark:invert"
+            className="h-18 w-auto rounded-[10px] object-contain dark:invert"
           />
           {/* <img
             src={logo}
