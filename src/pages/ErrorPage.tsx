@@ -19,7 +19,7 @@ export const ErrorPage = () => {
           transition={{ duration: 1 }}
           className="text-8xl font-extrabold"
         >
-          404
+          Something awesome is on the way!
         </motion.h1>
 
         <motion.p
@@ -28,7 +28,8 @@ export const ErrorPage = () => {
           transition={{ delay: 1, duration: 1 }}
           className="mt-4 text-2xl text-center px-6"
         >
-          You drifted into the wrong Page 💥...
+          It’s not quite ready yet—but something cool is coming soon. Check back
+          later!💥...
         </motion.p>
 
         <motion.div
@@ -41,7 +42,7 @@ export const ErrorPage = () => {
             to="/"
             className="px-8 py-4 bg-pink-600 hover:bg-pink-700 text-white font-bold text-lg rounded-full shadow-lg transition transform hover:scale-110"
           >
-            Return to Website 🔙
+            Okay got it 🔙
           </Link>
         </motion.div>
       </div>

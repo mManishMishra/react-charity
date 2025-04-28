@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTheme } from "../hooks/useTheme";
 // import logo from "../assets/LOGO.jpeg";
-import logo from "../assets/logo-main.png";
+// import logo from "../assets/logo-main.png";
+import logoSide from "../assets/logo-second.png";
 import SearchBox from "./Searchbox";
 
 const Navbar = () => {
@@ -34,12 +35,33 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-[var(--brand-bg)] shadow-md transition-colors duration-500">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between relative">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-orange-600 glow-card">
+        {/* <Link to="/" className="text-2xl font-bold text-orange-600 glow-card">
           <img
             src={logo}
             alt="Charity Logo"
             className="h-15 w-auto rounded-[10px] object-contain dark:invert"
           />
+          <img
+            src={logoSide}
+            alt="Charity Logo"
+            className="h-15 w-auto rounded-[10px] object-contain dark:invert"
+          />
+        </Link> */}
+        <Link to="/" className="flex items-center gap-2 glow-card">
+          <img
+            src={logoSide}
+            alt="Side Logo"
+            className="h-12 w-auto rounded-[10px] object-contain dark:invert"
+          />
+          {/* <img
+            src={logo}
+            alt="Main Logo"
+            className="h-12 w-auto rounded-[10px] object-contain dark:invert"
+          /> */}
+          <span className="text-2l text-center font-bold  text-orange-600 dark:text-orange-400">
+            QUALIGIATE
+            <p>Global Education Tutors Foundation EST-2022</p>
+          </span>
         </Link>
 
         {/* Desktop Menu */}
